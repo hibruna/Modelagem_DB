@@ -1,0 +1,7 @@
+vitimas: id, nome, cpf, rg, endereco, crima_sofrida
+criminosos: id, nome, cpf, rg, endereco, crime_cometido
+crimes: id, descricao, local, data, cod_armas
+armas: id, modelo, cod_crime
+vitima_crimes: id, cod_vitima, cod_crimesofridos
+criminosos_crimes: id, cod_crimecometidos, cod_criminoso
+crimes_armas: id, cod_arma, cod_crime
